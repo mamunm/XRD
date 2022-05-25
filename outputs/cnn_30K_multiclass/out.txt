@@ -1,0 +1,66 @@
+Epoch: 1/50	Training Loss: 1.530	Validation Loss: 1.511	Validation Acc: 48.257
+Epoch: 2/50	Training Loss: 1.419	Validation Loss: 1.459	Validation Acc: 48.137
+Epoch: 3/50	Training Loss: 1.401	Validation Loss: 1.450	Validation Acc: 48.197
+Epoch: 4/50	Training Loss: 1.397	Validation Loss: 1.445	Validation Acc: 48.167
+Epoch: 5/50	Training Loss: 1.395	Validation Loss: 1.445	Validation Acc: 48.137
+Epoch: 6/50	Training Loss: 1.393	Validation Loss: 1.444	Validation Acc: 48.197
+Epoch: 7/50	Training Loss: 1.393	Validation Loss: 1.439	Validation Acc: 48.167
+Epoch: 8/50	Training Loss: 1.392	Validation Loss: 1.438	Validation Acc: 48.047
+Epoch: 9/50	Training Loss: 1.391	Validation Loss: 1.438	Validation Acc: 48.287
+Epoch: 10/50	Training Loss: 1.391	Validation Loss: 1.440	Validation Acc: 48.107
+Epoch: 11/50	Training Loss: 1.390	Validation Loss: 1.434	Validation Acc: 48.618
+Epoch: 12/50	Training Loss: 1.390	Validation Loss: 1.433	Validation Acc: 49.038
+Epoch: 13/50	Training Loss: 1.389	Validation Loss: 1.433	Validation Acc: 48.017
+Epoch: 14/50	Training Loss: 1.389	Validation Loss: 1.430	Validation Acc: 47.927
+Epoch: 15/50	Training Loss: 1.389	Validation Loss: 1.430	Validation Acc: 47.867
+Epoch: 16/50	Training Loss: 1.388	Validation Loss: 1.427	Validation Acc: 47.626
+Epoch: 17/50	Training Loss: 1.388	Validation Loss: 1.426	Validation Acc: 48.047
+Epoch: 18/50	Training Loss: 1.388	Validation Loss: 1.426	Validation Acc: 47.957
+Epoch: 19/50	Training Loss: 1.387	Validation Loss: 1.424	Validation Acc: 48.137
+Epoch: 20/50	Training Loss: 1.387	Validation Loss: 1.423	Validation Acc: 48.077
+Epoch: 21/50	Training Loss: 1.387	Validation Loss: 1.423	Validation Acc: 48.858
+Epoch: 22/50	Training Loss: 1.386	Validation Loss: 1.421	Validation Acc: 48.107
+Epoch: 23/50	Training Loss: 1.386	Validation Loss: 1.420	Validation Acc: 48.047
+Epoch: 24/50	Training Loss: 1.386	Validation Loss: 1.419	Validation Acc: 48.197
+Epoch: 25/50	Training Loss: 1.385	Validation Loss: 1.417	Validation Acc: 48.227
+Epoch: 26/50	Training Loss: 1.385	Validation Loss: 1.420	Validation Acc: 47.987
+Epoch: 27/50	Training Loss: 1.385	Validation Loss: 1.421	Validation Acc: 47.596
+Epoch: 28/50	Training Loss: 1.385	Validation Loss: 1.416	Validation Acc: 47.806
+Epoch: 29/50	Training Loss: 1.385	Validation Loss: 1.418	Validation Acc: 48.648
+Epoch: 30/50	Training Loss: 1.384	Validation Loss: 1.414	Validation Acc: 48.407
+Epoch: 31/50	Training Loss: 1.384	Validation Loss: 1.416	Validation Acc: 48.678
+Epoch: 32/50	Training Loss: 1.384	Validation Loss: 1.410	Validation Acc: 48.047
+Epoch: 33/50	Training Loss: 1.384	Validation Loss: 1.411	Validation Acc: 47.686
+Epoch: 34/50	Training Loss: 1.384	Validation Loss: 1.412	Validation Acc: 48.347
+Epoch: 35/50	Training Loss: 1.383	Validation Loss: 1.411	Validation Acc: 48.227
+Epoch: 36/50	Training Loss: 1.383	Validation Loss: 1.409	Validation Acc: 48.347
+Epoch: 37/50	Training Loss: 1.383	Validation Loss: 1.408	Validation Acc: 47.897
+Epoch: 38/50	Training Loss: 1.383	Validation Loss: 1.410	Validation Acc: 48.167
+Epoch: 39/50	Training Loss: 1.383	Validation Loss: 1.408	Validation Acc: 48.618
+Epoch: 40/50	Training Loss: 1.383	Validation Loss: 1.411	Validation Acc: 48.558
+Epoch: 41/50	Training Loss: 1.383	Validation Loss: 1.410	Validation Acc: 47.837
+Epoch: 42/50	Training Loss: 1.382	Validation Loss: 1.404	Validation Acc: 48.588
+Epoch: 43/50	Training Loss: 1.382	Validation Loss: 1.410	Validation Acc: 48.468
+Epoch: 44/50	Training Loss: 1.382	Validation Loss: 1.405	Validation Acc: 48.377
+Epoch: 45/50	Training Loss: 1.382	Validation Loss: 1.408	Validation Acc: 47.416
+Epoch: 46/50	Training Loss: 1.382	Validation Loss: 1.407	Validation Acc: 47.927
+Epoch: 47/50	Training Loss: 1.382	Validation Loss: 1.406	Validation Acc: 47.867
+Epoch: 48/50	Training Loss: 1.382	Validation Loss: 1.403	Validation Acc: 47.626
+Epoch: 49/50	Training Loss: 1.382	Validation Loss: 1.405	Validation Acc: 48.167
+Epoch: 50/50	Training Loss: 1.381	Validation Loss: 1.406	Validation Acc: 48.137
+Classification report:
+               precision    recall  f1-score   support
+
+           0       0.39      0.33      0.36       984
+           1       0.40      0.47      0.43       981
+           2       0.00      0.00      0.00       638
+           3       0.00      0.00      0.00       680
+           4       0.56      1.00      0.72      1620
+
+    accuracy                           0.49      4903
+   macro avg       0.27      0.36      0.30      4903
+weighted avg       0.34      0.49      0.40      4903
+
+ROC AUC score (one vs one): 0.6679084490190438
+ROC AUC score (one vs rest): 0.6906956393933337
+Test Loss: 1.409 | Test Acc: 47.090

@@ -1,0 +1,9 @@
+*.xy
+*.npy
+*.csv
+*.pth
+*.inp
+*.out
+*.pyc
+*.tar.gz
+*.DS_Store
